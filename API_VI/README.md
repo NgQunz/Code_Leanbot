@@ -16,10 +16,10 @@
 - [LbMotion.waitDistanceMm ](#LbMotionwaitDistanceMm)
 - [LbMotion.waitRotation ](#LbMotionwaitRotation)
 - [LbMotion.waitRotationDeg ](#LbMotionwaitRotationDeg)
-- [LbMotion.getDistance](#LbMotiongetDistance)
+<!-- - [LbMotion.getDistance](#LbMotiongetDistance)
 - [LbMotion.getDistanceMm](#LbMotiongetDistanceMm)
 - [LbMotion.getRotation](#LbMotiongetRotation)
-- [LbMotion.getRotationDeg](#LbMotiongetRotationDeg)
+- [LbMotion.getRotationDeg](#LbMotiongetRotationDeg) -->
 
 [Gripper ](#Gripper)
 
@@ -27,13 +27,13 @@
 - [LbGripper.close ](#LbGripperclose)
 - [LbGripper.moveTo ](#LbGrippermoveTo)
 - [LbGripper.moveToLR ](#LbGrippermoveToLR)
-- [LbGripper.readL](#LbGripperreadL)
-- [LbGripper.readR](#LbGripperreadR)
+<!-- - [LbGripper.readL](#LbGripperreadL)
+- [LbGripper.readR](#LbGripperreadR) -->
 
-[Buzzer ](#Buzzer)
+<!-- [Buzzer ](#Buzzer)
 
 - [Leanbot.tone](#Leanbottone)
-- [Leanbot.noTone](#LeanbotnoTone)
+- [Leanbot.noTone](#LeanbotnoTone) -->
 
 [RGB Leds ](#RGB-Leds)
 
@@ -42,16 +42,16 @@
 - [LbRGB[ledX]](#lbrgbledx)
 - [LbRGB.fillColor](#LbRGBfillColor)
 
-[Touch Sensors](#Touch-Sensors)
+<!-- [Touch Sensors](#Touch-Sensors)
 
 - [LbTouch.read](#LbTouchread)
 - [LbTouch.readBits](#LbTouchreadBits)
-- [LbTouch.onPress](#LbTouchonPress)
+- [LbTouch.onPress](#LbTouchonPress) -->
 
-[Ultrasonic Sensor](#Ultrasonic-Sensor)
+<!-- [Ultrasonic Sensor](#Ultrasonic-Sensor)
 
 - [Leanbot.pingCm](#LeanbotpingCm)
-- [Leanbot.pingMm](#LeanbotpingMm)
+- [Leanbot.pingMm](#LeanbotpingMm) -->
 
 [IR Sensors](#IR-Sensors)
 
@@ -63,14 +63,13 @@
 - [LbIRLine.doManualCalibration ](#LbIRLinedoManualCalibration)
 - [LbIRArray.read](#LbIRArrayread)
 
-[Laze Sensors](#Laze-Sensors)
+<!-- [Laze Sensors](#Laze-Sensors)
 
 - [LbLaze.begin](#LbLazebegin)
-- [LbLaze.shoot](#LbLazeshoot)
+- [LbLaze.shoot](#LbLazeshoot) -->
 
 [Color Detector](#Color-Detector)
 
-- Obj_detectColor
 - [Obj_detectColor](#obj_detectcolor)
 <!-- - [LbColorDetector.detect](#LbColorDetectordetect)
 - [LbColorDetector.printRGB](#LbColorDetectorprintRGB) -->
