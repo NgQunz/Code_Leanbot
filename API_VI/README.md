@@ -481,7 +481,7 @@ LbMotion.waitRotationDeg(180);     // wait for Leanbot to rotate approximately 1
 
 [🔼 Trở về đầu trang](#Các-hàm-điều-khiển-Leanbot)
 
-## LbMotion.getDistance()
+<!-- ## LbMotion.getDistance()
 
 ### Mô tả
 
@@ -510,7 +510,7 @@ Giá trị bước mà Leanbot đã di chuyển
 long distance = LbMotion.getDistance();
 ```
 
-[🔼 Trở về đầu trang](#Các-hàm-điều-khiển-Leanbot)
+[🔼 Trở về đầu trang](#Các-hàm-điều-khiển-Leanbot) -->
 
 <!-- ## LbMotion.getDistanceMm()
 
