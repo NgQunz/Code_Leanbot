@@ -39,7 +39,7 @@
 
 - [LbRGB.show](#LbRGBshow)
 - [LbRGB.clear](#LbRGBclear)
-- [LbRGB[ledX]](#lbrgbledx)
+<!-- - [LbRGB[ledX]](#lbrgbledx) -->
 - [LbRGB.fillColor](#LbRGBfillColor)
 
 <!-- [Touch Sensors](#Touch-Sensors)
@@ -406,7 +406,7 @@ Không có
 
 ```
 LbMotion.runLR(400, 400);       // let Leanbot move forward
-LbMotion.delayDistanceMm(150);  // wait for Leanbot to advance 150mm = 15cm
+LbMotion.waitDistanceMm(150);  // wait for Leanbot to advance 150mm = 15cm
 ```
 
 Xem thêm:
