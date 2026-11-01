@@ -70,8 +70,10 @@
 
 [Color Detector](#Color-Detector)
 
-- [LbColorDetector.detect](#LbColorDetectordetect)
-- [LbColorDetector.printRGB](#LbColorDetectorprintRGB)
+- Obj_detectColor
+- [Obj_detectColor](#obj_detectcolor)
+<!-- - [LbColorDetector.detect](#LbColorDetectordetect)
+- [LbColorDetector.printRGB](#LbColorDetectorprintRGB) -->
 
 # Leanbot
 
@@ -1738,7 +1740,7 @@ RGB: 120 85 60
 
 [🔼 Trở về đầu trang](#Các-hàm-điều-khiển-Leanbot) -->
 
-## Hướng dẫn sử dụng Color Detect – Nhận diện màu sắc
+# Obj_detectColor
 
 ### 1. Giới thiệu
 
