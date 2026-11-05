@@ -294,7 +294,7 @@ void xu_ly_H1()
         LbGripper.moveTo(0);
 
         // Ve diem chuan P1
-        di_lui(10);
+        di_lui(15);
         re_trai(45);
     }
 
@@ -339,7 +339,7 @@ void xu_ly_H1()
         LbGripper.moveTo(0);
 
         // Ve diem chuan P1
-        di_lui(10);
+        di_lui(15);
         re_trai(45);
     }
 
@@ -366,7 +366,7 @@ void xu_ly_H1()
         LbGripper.moveTo(0);
 
         // Ve diem chuan P1
-        di_lui(10);
+        di_lui(15);
         re_trai(45);
     }
 
@@ -605,13 +605,13 @@ void xu_ly_F3()
     LbMotion.stopAndWait();
 
     // Dua khoi vao CRL
-    re_trai(85);
+    re_trai(43);
     di_thang(12);
     LbGripper.moveTo(0);
 
     // Quay ve diem chuan P2
     di_lui(12);
-    re_phai(130);
+    re_trai(130);
 
     // Di len lai phia F
     speed = 1500;
@@ -629,10 +629,6 @@ void xu_ly_F3()
 }
 void den_C1()
 {
-  speed = 1500;
-  distance = 300;
-  followLine();
-  LbMotion.stopAndWait();
   // Tiep can khoi o nhiem C1
   re_trai(130);
   di_thang(8);
@@ -966,15 +962,15 @@ void xu_ly_E2()
 
     // Roi vi tri E2
     di_lui(8);
-    re_trai(42);
+    re_phai(42);
 
     speed = 1500;
-    distance = 300;
+    distance = 260;
     followLine();
     LbMotion.stopAndWait();
 
     // Di den khu vuc S6
-    re_trai(85);
+    re_phai(85);
     speed = 1500;
     distance = 620;
     followLine();
@@ -1044,7 +1040,7 @@ void xu_ly_E2()
 
     // Roi vi tri E2
     di_lui(8);
-    re_trai(42);
+    re_phai(42);
 
     speed = 1500;
     distance = 300;
@@ -1161,11 +1157,11 @@ void setup()
 void loop()
 {
   LbMission.begin(TB1A + TB1B);
-  den_H1();
-  xu_ly_H1();
+    den_H1();
+    xu_ly_H1();
   den_F3();
   xu_ly_F3();
-  den_C1();
+    den_C1();
   xu_ly_C1();
   den_E2();
   xu_ly_E2();
